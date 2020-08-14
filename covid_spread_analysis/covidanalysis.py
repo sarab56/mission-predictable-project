@@ -41,7 +41,7 @@ app=Flask(__name__)
 
 
 def home():
-    return render_template("bhome.html",table=df, cmap=html_map,pairs=pairs)
+    return render_template("home.html",table=df, cmap=html_map,pairs=pairs)
 
 
 if __name__=="__main__":
